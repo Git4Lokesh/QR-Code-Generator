@@ -41,7 +41,7 @@ text
 2. When prompted, enter a URL (e.g., `https://www.google.com`)
 
 3. The application will:
-   - Generate a QR code and save it as an SVG file in the current directory
+   - Generate a QR code and save it as an PNG file in the current directory
    - Save your input URL to `answer.txt` for reference
 
 4. Scan the generated QR code with your phone's camera or QR scanner app to test it
@@ -51,7 +51,7 @@ text
 - `index.js` - Main application file
 - `package.json` - Project dependencies and metadata
 - `answer.txt` - Stores the user input (generated after first run)
-- `*.svg` - Generated QR code files
+- `*.png` - Generated QR code files
 
 ## Example
 
